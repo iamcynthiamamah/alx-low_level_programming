@@ -23,7 +23,7 @@ int main(void)
 }
 
 
-int main(void)
+/**int main(void)
 {
 	int n;
 	char ch;
@@ -39,3 +39,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+*/
