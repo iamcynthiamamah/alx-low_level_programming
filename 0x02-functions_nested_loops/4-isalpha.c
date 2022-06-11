@@ -10,10 +10,12 @@ int _isalpha(int c)
 {
 	int isalpha(int c);
 
-	if isalpha(int c)
+	if (isalpha(c))
 	{
 		return (1);
 	}
 	else
 	{
 		return (0);
+	}
+}
