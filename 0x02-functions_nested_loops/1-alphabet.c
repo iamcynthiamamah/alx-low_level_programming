@@ -1,10 +1,12 @@
-#include "main.h"
 
-/**
- * main - check the code
- *
- * Return: always return 0 (success)
+#include "main.h"
+ /**
+ * main - Entry point
+ * 
+ * print_alphabet - This is a description
+ * Return: void
  */
+
 
 void print_alphabet(void)
 {
@@ -20,4 +22,5 @@ int main(void)
 	 print_alphabet();
 	return (0);
 }
+
 
