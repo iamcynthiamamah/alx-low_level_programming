@@ -3,7 +3,6 @@
  /**
  * main - Entry point
  * 
- * print_alphabet - This is a description
  * Return: void
  */
 
@@ -17,10 +16,6 @@ void print_alphabet(void)
 	_putchar('\n');
 }
 
-int main(void)
-{
-	 print_alphabet();
-	return (0);
-}
+
 
 
