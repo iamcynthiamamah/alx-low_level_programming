@@ -1,23 +1,25 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - Check code
  *
  * Return: always return 0 (success)
  */
 
 void print_alphabet_x10(void)
 {
-	char ch = 'a';
-	char print_alphabet_x10;
+	int print_alphabet_x10 = 1;
 
-	for (print_alphabet_x10 = ch; print_alphabet_x10 <= 10; print_alphabet_x10++)
+	char ch;
+
+	while (print_alphabet_x10 <= 10)
 	{
-		while (ch <= 'z')
+		for (ch = 'a'; ch <= 'z'; ch++)
 		{
 			_putchar(ch);
-			ch++;
 		}
-		_putchar(print_alphabet_x10);
+		putchar('\n');
+		print_alphabet_x10++;
 	}
 }
+
