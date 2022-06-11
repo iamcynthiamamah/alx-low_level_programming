@@ -9,16 +9,16 @@
 int main(void)
 {
 	char ch = 'a';
-	char print_alphabet;
+	char print_alphabet_x10;
 
-	for (print_alphabet = ch; print_alphabet <= 10; print_alphabet++)
+	for (print_alphabet_x10 = ch; print_alphabet_x10 <= 10; print_alphabet_x10++)
 	{
 		while (ch <= 'z')
 		{
 			_putchar(ch);
 			ch++;
 		}
-		_putchar(print_alphabet);
+		_putchar(print_alphabet_x10);
 	}
 		return (0);
 }
