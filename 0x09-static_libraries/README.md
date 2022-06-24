@@ -1,0 +1,1 @@
+My Static library task
