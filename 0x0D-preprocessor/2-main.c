@@ -1,18 +1,11 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<libgen.h>
-
+#include <stdio.h>
 /**
- * main - prints executable file name
- * @argc: n arguments
- * @argv: args
- * Return: EXIT_SUCCESS
+ * main - prints the name of the file program was compiled from
+ * Return: Always 0
  */
 
-int main(int argc, char *argv[])
+int main(void)
 {
-	char *exe_name = basename(argv[0]);
-
-	printf("%s\n", exe_name);
-	return (EXIT_SUCCESS);
+	printf("%s\n", __FILE__);
+	return (0);
 }
