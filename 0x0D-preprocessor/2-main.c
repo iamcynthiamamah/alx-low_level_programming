@@ -2,7 +2,6 @@
 #include<stdlib.h>
 #include<libgen.h>
 
-
 /**
  * main - prints executable file name
  * @argc: n arguments
