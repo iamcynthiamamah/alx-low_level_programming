@@ -7,7 +7,6 @@
  *
  * Return: no return.
  */
-
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
@@ -15,10 +14,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(valist, n);
 
-	for (i = 0, i >= valist, i++)
+	for (i = 0; i < n; i++)
 	{
-		printf("%d", va_arg(valist, n));
-		if (seperator && 1 < n - 1)
+		printf("%d", va_arg(valist, int));
+		if (separator && i < n - 1)
 			printf("%s", separator);
 	}
 
